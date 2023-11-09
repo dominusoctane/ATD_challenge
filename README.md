@@ -2,6 +2,18 @@
 
 ---
 
+**Table of Contents:**
+
+- [Introduction](#introduction)
+- [Methods Employed](#methods-employed)
+  1. [3D Segmentation with U-Net + ResNet18](#3d-segmentation-with-u-net--resnet18)
+  2. [Bounding Box Extraction](#bounding-box-extraction)
+  3. [Organ Detection](#organ-detection)
+  4. [Organ Extraction](#organ-extraction)
+  5.[2.5D LSTM + CNN (ConvNext-Nano) Training](#25d-lstm--cnn-convnext-nano-training)
+- [Future Work and Considerations](#future-work-and-considerations)
+
+  
 ## Introduction
 
 This repository contains my attempt at a challenging medical image processing task for RSNA 2023 Abdominal Trauma Detection. The goal was to effectively utilize a combination of 3D segmentation and 2.5D LSTM + CNN models to achieve reliable results. Throughout the project, various methods and strategies were employed to preprocess, segment, and classify medical images.
